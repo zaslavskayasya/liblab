@@ -2661,7 +2661,10 @@ button {
     .home .site_footer .image_wrap,
     .site_footer .image_wrap {
         background-size: cover;
-        top: 1px
+        top: 3px
+    }
+    .site_footer__body{
+        padding-top: 10px;;
     }
 
     .site_footer .image_wrap {
