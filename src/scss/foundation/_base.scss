@@ -84,7 +84,7 @@ body {
   position: absolute;
   right: -100px;
   top: 0px;
-  width: 895px;
+  width: 995px;
   z-index: 1;
   img{
     width: 100%;
@@ -265,7 +265,9 @@ body {
   .two-parts-block .absolute-block {
     right: -326px;
   }
-
+  .wrap-main-image{
+    width: 750px;  
+  }
 }
 
 @media screen and (max-width: 1400px){  
