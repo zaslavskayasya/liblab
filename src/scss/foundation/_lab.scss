@@ -367,6 +367,12 @@ b {
     .because_first .because__grid_body {
         grid-template-columns:repeat(2,1fr)
     }
+    .two-parts-block .image_part img{
+        width: 100%;
+    }
+    .two-parts-block.thin-blokc .text_part{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {

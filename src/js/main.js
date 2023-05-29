@@ -9,11 +9,15 @@ console.log(`Loaded main.js`);
  */
 
 const anchors = document.querySelectorAll('.scrollto')
+const popupToClose = document.querySelector('.pop-up');
+const mobMenu = document.querySelector('.mobile_menu');
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
-    console.log(anchor.getAttribute('href'))
+    console.log(anchor.getAttribute('href'));
+    popupToClose.classList.remove('active');
+    mobMenu.classList.remove('active');
     
     const blockID = anchor.getAttribute('href')
     
@@ -24,7 +28,7 @@ for (let anchor of anchors) {
   })
 };
 
-console.log(window);
+// console.log(window);
 
 
 
