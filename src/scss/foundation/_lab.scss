@@ -15,6 +15,15 @@ b {
 
 .more-thin{
     padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 60px;;
+}
+
+.after-arrow{
+    position: relative;
+    &:after{
+        content: "";
+    }
 }
 
 .bg_text__wrap {
@@ -149,7 +158,7 @@ b {
 }
 
 .because__grid_body .description {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.4
 }
@@ -164,6 +173,38 @@ b {
     top: 28%;
     width: 136px
 }
+
+.top-parts{
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+    .button-place{
+        width: 40%;
+        margin-right: 30px;
+    }
+    .button-green{
+        margin-top: 0px;;        
+        padding: 20px 30px;
+        cursor: pointer;
+        width: 100%;
+        display: block;
+    }
+    .texts-place{
+        width: 50%;
+    }
+    &.width_30{
+        margin-bottom: 50px;;
+        .button-place{
+            width: 25%;
+        }
+        .texts-place{
+            width: 70%;
+        }
+    }
+}
+
+
 
 .about_home .pepper {
     height: 146px;
@@ -309,7 +350,7 @@ b {
 }
 
 .lab_content {
-    margin: 0 auto 70px;
+    margin: 0 auto 30px;
     max-width: 100%;
     width: 770px
 }
@@ -528,16 +569,18 @@ b {
 .two-parts-block{
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 80px;;
+    margin-bottom: 10px;;
     &.large-text{
         .text_part{
-            width: 63%
+            width: 65%;
         }
         .image_part{
             width: 38%;
             .img-more-small{
                 img{
                     width: 380px;
+                    left: 0px;
+                    right: -60px;
 
                 }
             }
@@ -545,7 +588,7 @@ b {
     }
     &.thin-blokc {
         .text_part{
-            width: 38%
+            width: 58%
         }
         .image_part{
             width: 68%;
@@ -576,16 +619,18 @@ b {
     .text_part{
         width: 78%;
         padding-right: 40px;
+        margin-bottom: 10px;;
     }
     .image_part{
         width: 38%;
         position: relative;
         img{
             vertical-align: top;
-            width: 700px;
+            width: 500px;
             position: absolute;
             top: 17px;
             max-width: initial;;
+            left: -100px;
         }
 
 
@@ -600,15 +645,21 @@ b {
     .absolute-block {
         position: absolute; 
         right: -392px;
-        top: 239px;
+        top: 39px;
         width: 353px;
         // height: 286px;
         background: #FFFFFF;
         border-radius: 9px;
-        padding: 30px 20px;
+        padding: 35px 20px;
+    }
+    h2{
+        margin-bottom: 30px;;
     }
 }
-
+.two-parts-block .image_part img{
+    left: 0px;
+    right: -60px;
+}
 .two-parts-block .image_part.img-more-small img {
         width: 400PX;
 }

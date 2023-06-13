@@ -175,7 +175,8 @@ a {
 
 .content h2 {
     font-weight: 700;
-    line-height: 1.3
+    line-height: 1.3;
+    font-size: 24px;
 }
 
 .content li,
@@ -214,6 +215,10 @@ a {
     flex-direction: column;
     gap: 24px;
     max-width: 100%
+}
+
+h2.wp-block-heading-top{
+    font-size: 32px;;
 }
 
 .content ul {
@@ -1067,7 +1072,7 @@ button {
 
 .site_header .header_main_menu {
     display: inline-flex;
-    gap: 20px;
+    gap: 26px;
     margin-left: auto
 }
 
