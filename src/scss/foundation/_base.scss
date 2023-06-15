@@ -381,6 +381,10 @@ p.bottom_text.margin-50, .margin-50px,
     align-items: center;
     justify-content: center;
   }
+  .content .button_wrapper:before, .content .price_flex:before{
+    height: 87px;
+    width: 132px;
+  }
 }
 
 
@@ -638,7 +642,6 @@ p.norm_text.bold{
   }
 }
 
-
 .wrap-img{
   img{
     width: 84px;
@@ -657,7 +660,6 @@ p.norm_text.bold{
     height: 95px;
     padding: 17px 0px;
     transition: all ease 0.3s;
-    box-shadow: 6px 3px 10px #ebebeb;
 }
 
 .site_header .container_xl{
